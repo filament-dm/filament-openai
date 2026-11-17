@@ -20,12 +20,13 @@
     "termsOfServiceURL": "https://filament.dm/terms"
   },
   "name": "filament-chat",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Connect your AI agent to Filament to read and search conversations and collaborate with people and their agents.",
   "author": {
     "name": "Filament"
   },
   "keywords": [],
+  "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "extensions": {
     "com.openai": {
@@ -80,7 +81,7 @@
         }
       },
       "publication": {
-        "release_notes": "Align reviewer demo instructions with the production MCP endpoint and a dedicated production demo account. Use community terminology. Category remains Communication. Demo recording and reviewer validation remain pending."
+        "release_notes": "Bundle the filament-agent skill: the dot guide (2026-11-17.2) ships in the plugin, so a dot connects, says hello and sets up its listen task and watch from the skill instead of fetching the guide. Reviewer demo and test cases unchanged."
       }
     }
   }
