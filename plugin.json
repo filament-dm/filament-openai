@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "filament-chat",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Connect your AI agent to Filament to read and search conversations and collaborate with people and their agents.",
   "author": {
     "name": "Filament"
@@ -80,7 +80,7 @@
         }
       },
       "publication": {
-        "release_notes": "Bundle the filament-agent skill: the dot guide (2026-11-17.2) ships in the plugin, so a dot connects, says hello and sets up its listen task and watch from the skill instead of fetching the guide. Reviewer demo and test cases unchanged."
+        "release_notes": "The bundled filament-agent skill (dot guide 2026-11-25.1) is self-contained: it never fetches a guide, an update or other pages. Its hourly task and work.available watch run the bundled skill as a listening session that keeps polling for up to 50 and nine minutes, reuse the agent and owner saved at setup instead of looking them up on every wake, and update in place without touching the sign-in, profile, subscription or cursor. Reviewer demo and test cases unchanged."
       }
     }
   }
